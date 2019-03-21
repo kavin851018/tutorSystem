@@ -1,0 +1,11 @@
+mysql> show columns from general_booked;
++-----------+----------+------+-----+---------+-------+
+| Field     | Type     | Null | Key | Default | Extra |
++-----------+----------+------+-----+---------+-------+
+| id        | char(16) | NO   | PRI |         |       |
+| name      | char(32) | YES  |     | NULL    |       |
+| dept      | char(16) | YES  |     | NULL    |       |
+| phone     | char(16) | YES  |     | NULL    |       |
+| email     | char(64) | YES  |     | NULL    |       |
+| booked_id | char(16) | YES  |     | NULL    |       |
++-----------+----------+------+-----+---------+-------+

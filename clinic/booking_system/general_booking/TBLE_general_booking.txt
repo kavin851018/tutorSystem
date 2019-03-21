@@ -1,0 +1,13 @@
+mysql> show columns from general_booking;
++-------------+----------+------+-----+---------+-------+
+| Field       | Type     | Null | Key | Default | Extra |
++-------------+----------+------+-----+---------+-------+
+| id          | char(16) | NO   | PRI |         |       |
+| topic       | tinytext | YES  |     | NULL    |       |
+| description | text     | YES  |     | NULL    |       |
+| max_booking | int(11)  | YES  |     | NULL    |       |
+| deadline    | date     | YES  |     | NULL    |       |
+| time        | datetime | YES  |     | NULL    |       |
+| location    | tinytext | YES  |     | NULL    |       |
+| compere     | char(32) | YES  |     | NULL    |       |
++-------------+----------+------+-----+---------+-------+
